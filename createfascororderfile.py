@@ -415,7 +415,7 @@ oh.DateCCYYMMDD = '20180317'
 oh.Priority = 'PR'
 oh.CarrierId = 'RUSH'  # leave blank to rate shop
 if oh.CarrierId == 'RUSH':
-   oh.ShipDateCCYYMMDD = get_XDaysFromNowCCYYMMDD(2)  # TODO: tweak days based on level of service
+   oh.ShipDateCCYYMMDD = get_XDaysFromNowCCYYMMDD(2)  # TODO: Tweak days based on level of service
 else:
    oh.ShipDateCCYYMMDD = get_XDaysFromNowCCYYMMDD(30)  
 oh.SoldToCustId = oh.AccountNumber #15 Normaly same as oh.AccountNumber 
